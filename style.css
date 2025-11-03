@@ -1,0 +1,55 @@
+body {
+  background-image: url("backgroundxd.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+h1, h2, h3, h4, h5, summary, li, footer {
+  color: #B680FF;
+  text-shadow: 0px 0px 10px #B680FF;
+}
+
+img {
+  border: 6px solid #370080;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #B680FF;
+}
+#pfp {
+  border: 15px solid #370080;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #B680FF;
+}
+
+b {
+  color: #6E00FF;
+  text-shadow: 
+     -1px -1px 0 black,
+     1px -1px 0 black,
+     -1px 1px 0 black,
+     1px 1px 0 black;
+}
+
+p {
+  color: #4F00B8;
+  text-shadow: 
+     -1px -1px 0 #B680FF,
+     1px -1px 0 #B680FF,
+     -1px 1px 0 #B680FF,
+     1px 1px 0 #B680FF;
+}
+
+a {
+  color: #8782E3;
+  text-shadow: 0px 0px 10px #B680FF;
+}
+
+td {
+  border: 7px solid #905CD6;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #B680FF;
+  padding: 10px;
+  background-color: #5F15C1;
+}
+
