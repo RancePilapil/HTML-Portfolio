@@ -11,14 +11,24 @@ h1, h2, h3, h4, h5, summary, li, footer {
   text-shadow: 0px 0px 10px #B680FF;
 }
 
+main {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 7px solid #020202;
+  border-radius: 5px;
+}
+
 img {
   border: 6px solid #370080;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px #B680FF;
 }
 #pfp {
   border: 15px solid #370080;
   border-radius: 10px;
+}
+img:hover {
+  box-shadow: 0px 0px 10px #B680FF;
+}
+#pfp:hover {
   box-shadow: 0px 0px 10px #B680FF;
 }
 
@@ -46,10 +56,20 @@ a {
 }
 
 td {
-  border: 7px solid #905CD6;
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px #B680FF;
+  border-radius: 15px;
   padding: 10px;
   background-color: #5F15C1;
+}
+td:hover {
+  box-shadow: 0px 0px 10px #B680FF;
+
+  transition-timing-function: ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
+}
+td:hover {
+  border: 7px solid #905CD6;
+
+  transition-timing-function: ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
 }
 
